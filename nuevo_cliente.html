@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+ div{
+      margin:20px;
+      width: 200px;
+      display: block;
+  }
+
+  div form input[type='submit']{
+      margin-top:10px;
+  }
+  label{
+      display: inline-block;
+  }
+  h1{
+      text-align: center;
+  }
+</style>
+<body>
+    <h1>Zona de Registro</h1>
+    <div> 
+    <form action="registrar_cliente.php" method="GET">
+        <label for="usuario">Usuario:</label><input type="text" name="usuario">
+        <label for="password"></label>Contraseña:<input type="text" name="password">
+        <label for="nombre"></label>Nombre<input type="text" name="nombre">
+        <label for="apellido1">Primer Apellido:</label><input type="text" name="apellido1">
+        <label for="apellido2">Segundo Apellido:</label><input type="text" name="apellido2">
+        <label for="telefono">Telefono:</label><input type="text" name="telefono">
+        <label for="total_gastado">Gasto Total:</label><input type="text" name="total_gastado">
+        <input type="submit" value="Registrarse">
+    </form>
+</div>
+</body>
+</html>

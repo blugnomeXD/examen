@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+  div{
+      margin:20px;
+      width: 200px;
+      display: block;
+  }
+
+  div form input[type='submit']{
+      margin-top:10px;
+  }
+  a{
+      margin-left: 10px;
+      display: block;
+  }
+    </style>
+
+</head>
+<body>
+    <div> 
+<form action="validar_cliente.php" method="POST">
+    <label for="usuario">Usuario: </label><input type="text" name="usuario"> <br>
+    <label for="password">Contraseña: </label><input type="text" name="password"> <br>
+    <input type="submit" value="Ingresar">
+</form>
+</div>
+    <a href="nuevo_cliente.html">Registrar nuevo cliente</a>
+    
+</body>
+</html>
